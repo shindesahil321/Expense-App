@@ -6,7 +6,7 @@
   "scripts": {
     "install:all": "npm install && cd BackEnd && npm install && cd ../FrontEnd && npm install",
     "dev": "concurrently \"cd BackEnd && npm run dev\" \"cd FrontEnd && npm run dev\"",
-    "build": "cd FrontEnd && npm run build",
+    "build": "cd FrontEnd && npm install && npm run build",
     "start": "cd BackEnd && npm start"
   },
   "keywords": ["mern", "expense-tracker", "finance", "react", "nodejs", "mongodb"],
